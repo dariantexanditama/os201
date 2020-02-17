@@ -1,6 +1,3 @@
------BEGIN PGP MESSAGE-----
-Version: BCPG C# v1.6.1.0
-
 hQIMA9D1291n323eAQ/9EZy4pmk8xa7qwp0/ObFVwvdV/fwV1BcJcVVdC7arG+aY
 uk44Z+k95BBNDdixZ0Fbg2iCs1sUKpM6TGfeXqCKE4YoXXhwfZkQUwfgEAErWqMp
 J0Y1hBI0CWMypGWRozw9AKStXyCtDdIK/ES5PeLkljDTKXFro09PvODsieLxl0i0
@@ -15,5 +12,3 @@ Ty0l2GKDHZ3IbgoaNhEVCP5/jbG/z0bLl9DNJwp8qCT8cAOlIugnWgwPxl7xw9jN
 SVSFkHS7lRZk1TBOr5GZCTR5hAOa6IpVdRyREZ/fmhbkRIvU/B7JBQY4eoUI7P0j
 bOBuX8TaGq2NzVMyvn88iHmKK0Q5W3bOpKY=
 =G8qL
------END PGP MESSAGE-----
-������������������������������������������������������������������������������������������������������

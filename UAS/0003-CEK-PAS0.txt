@@ -1,0 +1,24 @@
+Script started on 2020-06-09 08:17:02+0700
+]0;darian@darian-ThinkPad-T480: ~/UAS[01;32mdarian@darian-ThinkPad-T480[00m:[01;34m~/UAS[00m$ PS1="$ "
+$ echo $GitHubUser
+dariantexanditama
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ ls[K[KPS1="\$(eval \$PSTAMP)"
+200609-081822-b9bd-UAS/> ls -F
+0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt
+200609-081827-4a4f-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.aasc  > SHA1SUM
+200609-081848-50bc-UAS/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200609-081858-d651-UAS/> gpg -sb -a SHA1SUM
+200609-081923-b785-UAS/> gpg --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Tue 09 Jun 2020 08:19:19 AM WIB
+gpg:                using RSA key 0ED310CD4AE494AE66FABA93EF9C761CB6D7F639
+gpg: Good signature from "Darian Texanditama <darian.texanditama@ui.ac.id>" [ultimate]
+200609-081947-00ef-UAS/> exit
+exit
+
+Script done on 2020-06-09 08:19:53+0700

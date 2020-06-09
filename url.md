@@ -2,6 +2,8 @@
 permalink: /URLs/
 ---
 
+[Home](../)
+
 # Link Berguna
 
 ## Umum
